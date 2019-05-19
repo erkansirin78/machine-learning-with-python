@@ -1,0 +1,2 @@
+Each row corresponds to a specific policy holder and the columns describe their features. 
+The target variable is conveniently named target here and it indicates whether this policy holder made an insurance claim in the past.

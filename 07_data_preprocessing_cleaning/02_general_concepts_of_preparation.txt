@@ -1,0 +1,20 @@
+
+Scikit Learn Kütüphanesinde Bulunan Veri Ön İşleme Kavramları
+===============================================================
+5.3. 	Preprocessing data
+	5.3.1. Standardization, or mean removal and variance scaling
+		5.3.1.1. Scaling features to a range
+		5.3.1.2. Scaling sparse data
+		5.3.1.3. Scaling data with outliers
+		5.3.1.4. Centering kernel matrices
+	5.3.2. Non-linear transformation
+		5.3.2.1. Mapping to a Uniform distribution
+		5.3.2.2. Mapping to a Gaussian distribution
+	5.3.3. Normalization
+	5.3.4. Encoding categorical features
+	5.3.5. Discretization
+		5.3.5.1. K-bins discretization
+		5.3.5.2. Feature binarization
+	5.3.6. Imputation of missing values
+	5.3.7. Generating polynomial features
+	5.3.8. Custom transformers

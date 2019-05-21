@@ -1,0 +1,37 @@
+
+Ev ödevi-1 
+==================
+bir listedeki sayıları toplayan, ortalamasını bulan ve standart sapmasını hesaplayan
+metodlara sahip bir sınıf yaratınız. 
+
+metodlar:
+toplam
+ortalama
+standart_sapma
+
+/////////// TEST PROSEDÜRÜ  ///////////////
+Örnek test ve beklenen sonuçlar:
+liste = [1,2,3,4,5,6,7]
+nesne2 = ErkanBasicStatistics() # Sizin sınıf adınız farklı olabilir
+nesne2.ortalama(liste)
+4.0
+
+nesne2.toplam(liste)
+28
+
+nesne2.standart_sapma(liste)
+2.160246899469287
+
+
+
+
+
+Ev ödevi-2 
+===============
+
+# simple_dirty_data.csv veri setini temizleyiniz 
+# 13.1. Veri okuma esnasında alınan hataları anlayın ve gerekli düzeltmeleri dosyadan elle yapınız.
+# 13.2. kategorik nitelikleri trim ediniz.
+# 13.3. isim, meslek ve şehirlerin ilk harfi büyük yapınız.
+# 13.4. NaN değeri doldurunuz.
+# 13.5. Nümerik niteliklerdeki aykırı değerleri düzeltiniz.

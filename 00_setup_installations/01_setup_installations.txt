@@ -51,6 +51,26 @@ pip install seaborn
 pip install plotly
 pip install jupyter
 
+Kurulum için alternatif komut:
+python -m pip install pandas
+
+
+
+
+Kontrol
+Windows cmd üzerinden 
+jupyter notebook
+
+
+
+
+
+
+
+
+
+
+
 
 
 

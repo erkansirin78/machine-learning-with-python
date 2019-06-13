@@ -57,11 +57,12 @@ python -m pip install pandas
 
 
 
-Kontrol
+6. Jupyter çalıştırma
 Windows cmd üzerinden 
 jupyter notebook
 
-
+Alternatif komut:
+python -m notebook
 
 
 

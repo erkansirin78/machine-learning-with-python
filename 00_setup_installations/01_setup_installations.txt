@@ -70,16 +70,13 @@ python -m notebook
 
 
 
-
-
-
-
-
 SAFHA-2 DERİN ÖĞRENME İLE İLGİLİ KURULUMLAR
 ===============================================================================
+pip install theano
 
+pip install tensorflow
 
-
+pip install keras
 
 
 	

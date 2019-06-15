@@ -1,2 +1,14 @@
 ignored_files
 01_python_temel/.ipynb_checkpoints
+02_pandas/.ipynb_checkpoints
+03_numpy/.ipynb_checkpoints
+04_matplotlib/.ipynb_checkpoints
+05_seaborn/.ipynb_checkpoints
+06_plotly/.ipynb_checkpoints
+07_data_preprocessing_cleaning/.ipynb_checkpoints
+07_data_preprocessing_cleaning/scikit_learn_ornekler/.ipynb_checkpoints
+08_linear_regression/.ipynb_checkpoints
+08_linear_regression/other_examples/.ipynb_checkpoints
+09_nonlinear_regression/.ipynb_checkpoints
+10_classification/.ipynb_checkpoints
+11_clustering/.ipynb_checkpoints

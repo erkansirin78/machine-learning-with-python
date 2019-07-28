@@ -1,0 +1,28 @@
+
+1.
+https://git-scm.com/download
+
+2.
+Tüm varsayılan seçenekleri değiştirmeden kurulum yapalım.
+
+
+3. 
+git config --global user.name "Adınız Soyadınız"
+git config --global use.email "github account email"
+
+
+4. 
+çalışma dizni oluştur
+mkdir egitim/dizini
+cd egitim/dizini
+
+
+5.
+git clone github <repo adresi>
+
+6.
+Github sayfasına gidin ve repoyu fork edin
+
+7.
+Tekrar komut satırında
+git remote set-url <fork edilmiş repo adresi>

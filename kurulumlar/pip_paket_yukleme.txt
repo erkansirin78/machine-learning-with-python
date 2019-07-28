@@ -1,0 +1,30 @@
+////////////////  pip ile paket yüklemek  /////////////////
+
+1. Standart komut
+pip install numpy
+
+numpy'ın son versiyonunu yükler
+
+2. Requiremets
+bazen belli versiyonları yüklemek gerekebilir
+bunun için requirements.txt dosyası oluşturulup içine:
+
+numpy==1.16.0
+pandas>0.23 <0.25
+
+şeklinde ilgili paketler ve versiyonları yazılır
+
+daha sonra
+
+pip instal -r requirements.txt
+
+komutu çalıştırılır.
+Bu durumda dosya içinde gereksinimlere uymayan paketler kaldırılır ve ilgili versiyonlar yüklenir.
+
+
+
+////////////////  pip ile paket kaldırmak  /////////////////
+
+1.
+pip uninstall pandas
+

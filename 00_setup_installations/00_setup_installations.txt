@@ -62,13 +62,9 @@ pip -V
 	pip 9.0.3 from c:\python\python36\lib\site-packages (python 3.6)
 
 4. Pip Upgrade
-pip  install --upgrade pip
-	veya
 python -m pip install --upgrade pip
 
 5. Temel paketlerin kurulumu (virtualenv kullanılmayacak ise)
-pip install pandas sklearn matplotlib seaborn plotly jupyter
-veya
 python -m pip install pandas sklearn matplotlib seaborn plotly jupyter
 
 6. Jupyter çalıştırma

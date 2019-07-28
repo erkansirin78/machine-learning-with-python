@@ -1,5 +1,6 @@
-
-
+========================================================================================
+	NOT:Python 3.6.5'in "00_setup_installations.txt" dokümanına göre  kurulu olmalıdır.
+========================================================================================
 
 1. cmd komut satırını yönetici olarak açınız.
 
@@ -48,7 +49,7 @@ python -V
 	Çıktısı
 	Python 3.6.5
 
-pip install --upgrade pip
+python -m pip install --upgrade pip
 
 	PermissionError: [WinError 5] Access is denied: 
 	hatası verebilir aldırış etmeden komutu tekrarlayınız.
@@ -62,7 +63,7 @@ cd ..
 
 5. tensorflow-1.14, keras yüklemek ve diğer sık kullanılan paketleri yüklemek
 
-pip install tensorflow keras pandas matplotlib sklearn pillow jupyter 
+python -m pip install tensorflow keras pandas matplotlib sklearn pillow jupyter 
 	Niçin sanal ortama da jupyter kurmalıyız:
 	https://stackoverflow.com/questions/38221181/no-module-named-tensorflow-in-jupyter
 

@@ -1,5 +1,5 @@
 ========================================================================================
-	NOT:Python 3.6.5'in "00_setup_installations.txt" dokümanına göre  kurulu olmalıdır.
+	NOT:Python 3.6.8'in "00_setup_installations.txt" dokümanına göre  kurulu olmalıdır.
 ========================================================================================
 
 1. cmd komut satırını yönetici olarak açınız.
@@ -97,7 +97,9 @@ cd dev
 
 8. virtualenv'dan jupyter kullanmak için 
 ipython kernel install --user --name=tensorflow-1
-	Installed kernelspec tensorflow-1 in C:\Users\user\AppData\Roaming\jupyter\kernels\tensorflow-1
+	Installed kernelspec tensorflow-1 in C:\Users\user\AppData\Roaming\jupyter\kernels\tensorflow-1	
+	Önemli not: Bu ortama pip ile yeni paket yüklerseniz jupyter'i bunu görmesi için yukarıdaki komutu yeniden çalıştırınız.
+	Aksi halde paketi yüklemenize rağmen module bulunamadı hatası verecektir.
 
 
 9. jupyter notebook çalıştırdığımızda 

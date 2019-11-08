@@ -1,45 +1,17 @@
-﻿	
-	GİT KURULUMU VE GİTHUB'DAN EĞİTİM İÇERİĞİNİN İNDİRİLMESİ
-===============================================================================
-1. Windows için gitbash yüklenir.
-https://git-scm.com/download
-Tüm varsayılan seçenekleri değiştirmeden kurulum yapalım.
-
-
-4. GitBash içinde
-
-çalışma dizni oluştur
-mkdir egitim/dizini
-cd egitim/dizini
-
-5. 
-git config --global user.name "Adınız Soyadınız"
-git config --global use.email "github account email"	
-
-
-6.
-git clone https://github.com/erkansirin78/machine-learning-with-python.git
-
-7.
-Github sayfasına gidin ve repoyu fork edin
-
-8.
-Tekrar komut satırında
-git remote set-url <fork edilmiş repo adresi>		
-
-
 
 	PYTHON VE JUPYTER KURULUMU, TEMEL PAKETLERİN YÜKLENMESİ
 =======================================================================
+https://www.veribilimiokulu.com/python-ile-veri-bilimi-calisma-ortami-kurmak-jupyter-ve-paket-kurulumu/
+adresindeki blog yazısından faydalanılabilir.
 
 1. Anaconda kurulu ise kaldıralım gereksiz kaynak tüketimine sebep oluyor.
 	Neye ihtiyacımız varsa elle tek tek yükleyelim.
 	Paket yüklemelerini daha rahat yapabileceğimiz oturmuş bir sürüm olan 
-	Python 3.6.5 kullanacağız.
+	Python 3.6.8 kullanacağız.
 	
 
 2. 
-https://www.python.org/downloads/release/python-365/
+https://www.python.org/downloads/release/python-368/
 	adresinden 
 "Windows x86-64 executable installer"
 	indirip kuruluma başlayalım.
@@ -54,7 +26,7 @@ where python
 python -V
 
 	Çıktı:
-	Python 3.6.5
+	Python 3.6.8
 
 pip -V
 	
@@ -78,18 +50,3 @@ python -m notebook
 
 komutları ile jupyter çalıştırılır.
 
-
-
-
-
-
-SAFHA-2 DERİN ÖĞRENME İLE İLGİLİ KURULUMLAR
-===============================================================================
-Virtual environment ve tensorflow kurulumu için
-"01_virtual_env_and_tensorflow-1.14_installation.txt" dosyasını 
-kullanınız.
-
-	
-	
-	
-	

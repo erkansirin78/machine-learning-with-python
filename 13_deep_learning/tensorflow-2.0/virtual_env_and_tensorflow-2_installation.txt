@@ -59,7 +59,7 @@ pip -V
 
 cd ..
 
-5. pip install tensorflow==2.0.0-alpha0, keras yüklemek ve diğer sık kullanılan paketleri yüklemek
+5. pip install tensorflow, keras yüklemek ve diğer sık kullanılan paketleri yüklemek
 
 pip install pip install tensorflow==2.0.0-alpha0 keras pandas matplotlib sklearn pillow jupyter 
 	Niçin sanal ortama da jupyter kurmalıyız:

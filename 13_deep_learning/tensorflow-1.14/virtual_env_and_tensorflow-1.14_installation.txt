@@ -120,7 +120,8 @@ deactivate
 	Ortamı tekrar aktif etmek sadece Scripts klasörü içinden mümkündür.
 	
 	
-	
+12. Eğer jupyter içinden herhangi bir kernel'i kaldırmak istersek
+jupyter kernelspec uninstall unwanted-kernel
 	
 	
 	
